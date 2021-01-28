@@ -1,0 +1,6 @@
+*.suo
+*.user
+.idea/
+.vs/
+bin/
+obj/
