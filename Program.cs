@@ -1,17 +1,16 @@
-﻿namespace PowerModeChangedListener
+﻿using System;
+using System.Management;
+using System.Threading;
+using Microsoft.Win32;
+
+namespace PowerModeChangedListener
 {
-    using System;
-    using System.Management;
-    using System.Threading;
-
-    using Microsoft.Win32;
-
-    public class Program
+    public static class Program
     {
-        private static readonly object Locker = new object();
-        private static readonly ManagementEventWatcher EventWatcher = new ManagementEventWatcher { Query = new WqlEventQuery("Win32_PowerManagementEvent") };
+        private static readonly object Locker = new();
+        private static readonly ManagementEventWatcher EventWatcher = new() { Query = new WqlEventQuery("Win32_PowerManagementEvent") };
 
-        public static void Main(string[] args)
+        public static void Main()
         {
             Start();
             Wait();

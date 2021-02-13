@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerModeChangedListener", "PowerModeChangedListener\PowerModeChangedListener.csproj", "{A8DD1571-7F20-4A24-915F-02DEB7F1926C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerModeChangedListener", "PowerModeChangedListener.csproj", "{7033C040-7D1B-4E91-AD28-94B342C2E2E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A8DD1571-7F20-4A24-915F-02DEB7F1926C}.Debug|x86.ActiveCfg = Debug|x86
-		{A8DD1571-7F20-4A24-915F-02DEB7F1926C}.Debug|x86.Build.0 = Debug|x86
-		{A8DD1571-7F20-4A24-915F-02DEB7F1926C}.Release|x86.ActiveCfg = Release|x86
-		{A8DD1571-7F20-4A24-915F-02DEB7F1926C}.Release|x86.Build.0 = Release|x86
+		{7033C040-7D1B-4E91-AD28-94B342C2E2E7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7033C040-7D1B-4E91-AD28-94B342C2E2E7}.Debug|x86.Build.0 = Debug|Any CPU
+		{7033C040-7D1B-4E91-AD28-94B342C2E2E7}.Release|x86.ActiveCfg = Release|Any CPU
+		{7033C040-7D1B-4E91-AD28-94B342C2E2E7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
